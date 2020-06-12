@@ -10,6 +10,6 @@ router.get('/getOrderDetails',appController.getOrderDetails)
 
 // updates noOfOrders key present in each user, with its correct value respectively.
 router.get('/updateUserDetails',appController.updateUserDetails)
-// post/put method is not used since no data in request body and api url was required to perform the given tasks
+
 
 module.exports=router
